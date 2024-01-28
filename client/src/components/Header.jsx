@@ -5,11 +5,11 @@ const Header = () => {
     const navigate = useNavigate();
     return (
         <header>
-            <h1>iamLeb</h1>
+            <h2 className="line-down">iamLeb</h2>
             <div className="links">
                 <p onClick={() => navigate('/')}>Home</p>
-                <p onClick={() => navigate('/')}>About</p>
-                <p onClick={() => navigate('/')}>Contact</p>
+                <p onClick={() => navigate('/login')}>Login</p>
+                <p onClick={() => navigate('/register')}>Register</p>
             </div>
         </header>
     );
