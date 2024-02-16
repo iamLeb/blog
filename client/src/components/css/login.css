@@ -1,0 +1,66 @@
+.loginContainer {
+    background-color: #fff;
+    margin: 7rem auto;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.imageQuote {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+div.form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.formControl {
+    padding: 15px;
+    max-width: 500px;
+    width: 300px;
+    margin: 10px auto;
+    background-color: #d1dedd;
+    border: none;
+    border-radius: 10px;
+}
+
+.formGroup h1 {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #d1dedd;
+}
+
+
+/*
+
+*/
+@media screen and (max-width: 1035px) {
+
+    .imageContainer {
+        display: none;
+    }
+
+    .loginContainer {
+        background-color: #fff;
+        margin: 10rem auto;
+        padding: 60px 0;
+        max-width: 500px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+}

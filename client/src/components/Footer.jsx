@@ -1,14 +1,10 @@
 import React from 'react';
-
+import "./css/footer.css";
+import Nav from "./Nav.jsx";
 const Footer = () => {
     return (
-        <footer>
-            <h1>iamLeb</h1>
-            <div className="links">
-                <p>Home</p>
-                <p>About</p>
-                <p>Contact</p>
-            </div>
+        <footer className="front">
+            <Nav />
         </footer>
     );
 };
