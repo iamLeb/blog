@@ -1,0 +1,21 @@
+body {
+    margin: 0; padding: 0;
+}
+
+h1 {
+
+}
+
+header.adminHeader {
+    background-color: #000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+}
+
+header div.right {
+    display: flex;
+    gap: 20px;
+}

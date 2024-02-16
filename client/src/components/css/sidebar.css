@@ -1,0 +1,35 @@
+aside.sideBar {opacity: 0}
+
+/*.postsContainer {*/
+/*    opacity: 0.1;*/
+/*}*/
+
+/*Add side bar for menu links */
+aside.sideBar {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    background-color: #1a1a1a;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0; bottom: 0;
+    width: auto;
+    padding: 20px;
+    z-index: 1;
+}
+
+.sideBar {
+    transition: opacity 0.5s ease, visibility 0s linear 0.5s;
+}
+
+.postsContainer {
+    transition: opacity 0.5s ease;
+}
+
+div.sideLinks {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: start;
+    gap: 10px;
+}

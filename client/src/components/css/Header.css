@@ -1,0 +1,32 @@
+header.front, footer.front {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-bottom: 1px solid #bbc7c7;
+}
+
+
+.menu-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-right: 20px;
+    transition: margin-right 1s ease-out;
+}
+
+@media screen and (max-width: 768px) {
+
+    h1 {
+        font-size: 20px;
+        margin-left: 20px;
+        transition: font-size 1s ease-in, margin-left 4s ease-in;
+    }
+
+    .hamburger {
+        margin-right: 20px;
+        transition: margin-right 1s ease-in;
+    }
+}
